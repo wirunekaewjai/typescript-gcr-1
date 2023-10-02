@@ -1,0 +1,36 @@
+{
+  "name": "typescript-gcr-1",
+  "version": "0.1.0",
+  "description": "",
+  "main": "dist/app.js",
+  "scripts": {
+    "dev": "ts-node src/cli/dev.ts",
+    "build": "ts-node src/cli/build.ts",
+    "start": "ts-node src/cli/start.ts",
+    "deploy": "ts-node src/cli/deploy.ts"
+  },
+  "keywords": [
+    "node",
+    "jsx",
+    "typescript"
+  ],
+  "author": "Wirune Kaewjai",
+  "license": "MIT",
+  "dependencies": {
+    "@whatwg-node/server": "^0.9.14",
+    "@wirunekaewjai/jsx": "^0.1.11",
+    "itty-router": "^4.0.23"
+  },
+  "devDependencies": {
+    "@emotion/hash": "^0.9.1",
+    "@types/node": "^18.16.0",
+    "dotenv": "^16.3.1",
+    "esbuild": "^0.19.4",
+    "glob": "^10.3.10",
+    "nodemon": "^3.0.1",
+    "sharp": "^0.32.6",
+    "tailwindcss": "^3.3.3",
+    "ts-node": "^10.9.1",
+    "typescript": "^5.2.2"
+  }
+}
